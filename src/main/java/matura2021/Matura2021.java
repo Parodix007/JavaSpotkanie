@@ -8,7 +8,7 @@ public class Matura2021 {
     public static void main(String[] args) {
         Tasks tasks = Tasks.tasksFrom(new FileReaderImpl(), new ParserImpl(), "matura2021/galerie_przyklad.txt");
         tasks.zadanie1();
-        tasks.zadani2();
-        tasks.zadani3();
+        tasks.zadanie2();
+        tasks.zadanie3();
     }
 }

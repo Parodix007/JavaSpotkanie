@@ -41,7 +41,7 @@ public class Tasks {
         System.out.println("Zadanie 1: " + result);
     }
 
-    public void zadani2() {
+    public void zadanie2() {
         List<String> fileContentParsed = getFileContentParsed();
         Map<String, Map<String, Double>> result = new HashMap<>();
 
@@ -74,7 +74,7 @@ public class Tasks {
         System.out.println("Zadanie 2 b): " + max.get() + " " + min.get());
     }
 
-    public void zadani3() {
+    public void zadanie3() {
         List<String> fileContentParsed = getFileContentParsed();
         Map<String, Set<Double>> result = new HashMap<>();
 

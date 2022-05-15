@@ -14,8 +14,8 @@ public class FileReaderImpl implements FileReader {
         return resourceAsStream.map(content -> {
             try {
                 return Optional.of(new String(content.readAllBytes(), StandardCharsets.UTF_8));
-            } catch (final IOException e) {
-                e.printStackTrace();
+            } catch (final IOException error) {
+                error.printStackTrace();
                 return Optional.<String>empty();
             }
         }).orElseGet(Optional::empty);
